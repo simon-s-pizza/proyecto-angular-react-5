@@ -1,16 +1,31 @@
-# React + Vite
+# cv-react-simon-toro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hoja de vida modular en React (Vite). Proyecto realizado como actividad GA1-220501096-03-AA1-EV05.
 
-Currently, two official plugins are available:
+## Ejecutar localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. `npm install`
+2. `npm run dev`
+3. Abrir `http://localhost:5173` (o la URL que muestre Vite).
 
-## React Compiler
+## Captura de pantalla
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Captura de ejemplo](screenshot.png)
+_(Reemplaza `screenshot.png` por una captura real en la raíz del repo)_
 
-## Expanding the ESLint configuration
+## Estructura
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components/CabeceraCV.jsx`
+- `src/components/Perfil.jsx`
+- `src/components/Experiencia.jsx`
+- `src/components/Educacion.jsx`
+- `src/App.jsx`
+
+## Commits
+
+Todos los componentes fueron añadidos con commits individuales:
+
+- `feat: componente CabeceraCV con datos personales actualizados`
+- `feat: componente Perfil con descripción personalizada`
+- `feat: componente Experiencia con 4 cargos definidos`
+- `feat: componente Educacion con formación complementaria`
